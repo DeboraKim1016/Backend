@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.smhrd.player.service.PlayerService;
 
 @RestController //리액트 서버로 데이터만 응답
-@CrossOrigin("http://localhost:3000") //리액트 서버 허용
+//@CrossOrigin("http://localhost:3000") //리액트 서버 허용
+@CrossOrigin("http://13.209.7.78:3000") //aws: 서버 주소 변경(퍼블릭 IPv4 주소)
 public class PlayerController {
 
 	
